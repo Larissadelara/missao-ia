@@ -5,7 +5,7 @@
     --fonte-titulo:'Oswald';
     --fonte-texto:'Story Script';
     --cor-principal: #2E3440;
-    --cor-secundaria: #6b2b5f	;
+    --cor-secundaria: #8f738a	;
     --cor-destaque: #88C0D0;
     --cor-texto: #ABB2BF;
 }
@@ -24,6 +24,35 @@ body{
     max-width: 600px;
     text-align: center;
     padding: 20px;
-    
+
+}
+h1, .caixa-perguntas, .caixa-resultados{
+    font-family: var(--fonte-titulo);
+}
+h1{
+    color: var(--cor-destaque);
+}
+button{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: backgroud-color 0.3s;
+}
+button :hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
+.caixa-resultados{
+    display: none;
+}
+.caixa-resultados.mostrar{
+    display: block;
+}
+.caixa-alternativas{
+display: flex;
+flex-direction: column;
+gap: 10px;
 }
     
