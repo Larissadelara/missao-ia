@@ -5,9 +5,9 @@
     --fonte-titulo:'Oswald';
     --fonte-texto:'Story Script';
     --cor-principal: #2E3440;
-    --cor-secundaria: #8f738a	;
+    --cor-secundaria: #000000	;
     --cor-destaque: #c5bebe;
-    --cor-texto: #d8e4f9;
+    --cor-texto: #f5f5f5;
 }
 body{
     background-color: var(--cor-principal);
