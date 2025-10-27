@@ -40,4 +40,13 @@ function mostraAlternativas(){
         botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
         caixaAlternativas.appendChild(botaoAlternativas);
     }
+    function mostraAfirmacoes(){
+        for(const afirmacoes of perguntaAtual.afirmacoes){
+
+        }
+    }
+}
+function respostaSelecionada(opcaoSelecionada){
+    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
+    historiaFinal += afirmacoes + "";
 }
