@@ -62,4 +62,11 @@ function mostraResultado(){
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
     caixaResultados.classList.add("mostrar");
+    botaoJogarNovamento.addEventListener("click", jogaNovamente);
+}
+function jogaNovamente(){
+    atual = 0;
+    historiaFinal ="";
+    caixaResultados.classList.remove("mostrar");
+    mostraPergunta();
 }
