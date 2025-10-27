@@ -70,3 +70,9 @@ function jogaNovamente(){
     caixaResultados.classList.remove("mostrar");
     mostraPergunta();
 }
+function substituinome(){
+    for (const pergunta  of perguntas){
+        pergunta.enunciado = pergunta.enunciado.reclace(/você/g, nome);
+    }
+}
+substituinome();
