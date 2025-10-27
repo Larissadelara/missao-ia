@@ -62,17 +62,17 @@ function mostraResultado(){
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
     caixaResultados.classList.add("mostrar");
-    botaoJogarNovamento.addEventListener("click", jogaNovamente);
+    botaoJogarNovamente.addEventListener("click", jogaNovamente);
 }
 function jogaNovamente(){
     atual = 0;
-    historiaFinal ="";
+    historiaFinal = "";
     caixaResultados.classList.remove("mostrar");
     mostraPergunta();
 }
-function substituinome(){
-    for (const pergunta  of perguntas){
-        pergunta.enunciado = pergunta.enunciado.reclace(/você/g, nome);
+function substituiNome(){
+    for (const pergunta of perguntas){
+        pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
     }
 }
-substituinome();
+substituiNome();
