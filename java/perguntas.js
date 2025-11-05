@@ -19,17 +19,20 @@ alternativas:[
 ]
     },
     {
-        enunciado:
+        enunciado:"Reconhecendo que a desigualdade no país é multifacetada e impacta a próxima geração, surge um novo e urgente dilema: a desigualdade digital e o acesso desigual à influência política. Observa-se que a concentração de riqueza está diretamente ligada à concentração de poder de lobby e à capacidade de moldar leis como a tributária, enquanto a próxima geração em áreas marginalizadas carece de conectividade de qualidade e de formação digital avançada para participar plenamente da economia do futuro",
         alternativas:[
             {
-                texto:
+                texto:"Caminho Escolhido: Implementação de uma regulação estrita sobre o lobby empresarial e doações de campanha para reduzir a influência do poder econômico nas decisões legislativas.",
                 afirmacao:[
 
                 ],
                 proxima:3,
             },
             {
-            texto
+            texto:"Caminho Escolhido: O governo adota uma postura de não intervenção, mantendo as regras atuais de financiamento político e lobby favoráveis a quem tem mais recursos."
+            afirmacao:[
+
+            ],
         ]
         
     }
