@@ -4,9 +4,9 @@
 :root{
     --fonte-titulo:'Oswald';
     --fonte-texto:'Story Script';
-    --cor-principal: #5f79c3;
+    --cor-principal: #a5bbf6;
     --cor-secundaria: #284f92	;
-    --cor-destaque: #4e94eb;
+    --cor-destaque: #244d7f;
     --cor-texto: #0e0c0cff;
 }
 body{
