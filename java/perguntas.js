@@ -38,11 +38,12 @@ alternativas:[
         ]
     },
 {
-    enunciado:
+    enunciado:"O governo tem um orçamento limitado para combater a criminalidade urbana, que tem se enraizado profundamente nas áreas de maior desigualdade social, afetando desproporcionalmente a próxima geração.",
     alternativas:[
         {
             texto:
             afirmacao:[
+                "Alocar a maior parte do orçamento para programas de turno integral em escolas, centros de capacitação profissional e infraestrutura cultural em bairros marginalizados. A estratégia é redirecionar os jovens do caminho do crime, oferecendo oportunidades reais.",
 
             ],
             proxima:3,
