@@ -1,6 +1,6 @@
 export const perguntas = [
     {
-    enunciado:"O país está em uma encruzilhada moral e econômica. Análises recentes revelam que o coeficiente de Gini (medida de desigualdade) atingiu seu pico histórico, e a baixa taxa de mobilidade social sugere que as crianças nascidas nas famílias mais pobres têm chances quase nulas de alcançar o patamar de renda dos mais ricos. Essa disparidade crescente ameaça a estabilidade democrática e a sustentabilidade do crescimento a longo prazo. O governo deve tomar uma decisão imediata sobre a direção a seguir.",
+    enunciado:"O país está em uma encruzilhada moral e econômica. Análises recentes revelam que o coeficiente de Gini (medida de desigualdade) atingiu seu pico histórico, e a baixa taxa de mobilidade social sugere que as crianças nascidas nas famílias mais pobres têm chances quase nulas de alcançar o patamar de renda dos mais ricos. Essa disparidade crescente ameaça a estabilidade democrática e a sustentabilidade do crescimento a longo prazo. O governo deve tomar uma decisão imediata sobre a direção a seguir",
 alternativas:[
         {
         texto:"O país está em uma encruzilhada moral e econômica. Análises recentes revelam que o coeficiente de Gini (medida de desigualdade) atingiu seu pico histórico, e a baixa taxa de mobilidade social sugere que as crianças nascidas nas famílias mais pobres têm chances quase nulas de alcançar o patamar de renda dos mais ricos. Essa disparidade crescente ameaça a estabilidade democrática e a sustentabilidade do crescimento a longo prazo. O governo deve tomar uma decisão imediata sobre a direção a seguir.",
@@ -24,16 +24,74 @@ alternativas:[
             {
                 texto:"Caminho Escolhido: Implementação de uma regulação estrita sobre o lobby empresarial e doações de campanha para reduzir a influência do poder econômico nas decisões legislativas.",
                 afirmacao:[
-
-                ],
+                    "A nação deve adotar a Intervenção para Equidade Digital e Política, implementando a regulação de lobby e doações de campanha e exigindo que empresas de tecnologia garantam a banda larga e o treinamento digital em comunidades de baixa renda",
+         ],
                 proxima:3,
             },
             {
-            texto:"Caminho Escolhido: O governo adota uma postura de não intervenção, mantendo as regras atuais de financiamento político e lobby favoráveis a quem tem mais recursos."
+            texto:"Caminho Escolhido: O governo adota uma postura de não intervenção, mantendo as regras atuais de financiamento político e lobby favoráveis a quem tem mais recursos.",
+            afirmacao:[
+                "A nação deve adotar a Intervenção para Equidade Digital e Política, implementando a regulação de lobby e doações de campanha e exigindo que empresas de tecnologia garantam a banda larga e o treinamento digital em comunidades de baixa renda.",
+            ],
+        proxima: 4,
+            }
+        ]
+    },
+{
+    enunciado:
+    alternativas:[
+        {
+            texto:
             afirmacao:[
 
             ],
-        ]
-        
-    }
+            proxima:3,
+        },
+        {
+            texto:
+            afirmacao: [
+
+            ],
+            proxima: 4,
+        }
+    ]
+},
+{
+    enunciado:
+    alternativas:[
+        {
+            texto:
+            afirmacao:[
+
+            ],
+            proxima:3,
+        },
+        {
+            texto:
+            afirmacao: [
+
+            ],
+            proxima: 4,
+        }
+    ]
+},
+{
+    enunciado:
+    alternativas:[
+        {
+            texto:
+            afirmacao:[
+
+            ],
+            proxima:3,
+        },
+        {
+            texto:
+            afirmacao: [
+
+            ],
+            proxima: 4,
+        }
+    ]
+},
 ]
