@@ -26,7 +26,7 @@ alternativas:[
                 afirmacao:[
                     "A nação deve adotar a Intervenção para Equidade Digital e Política, implementando a regulação de lobby e doações de campanha e exigindo que empresas de tecnologia garantam a banda larga e o treinamento digital em comunidades de baixa renda",
          ],
-                proxima:3,
+                proxima: 3,
             },
             {
             texto:"Caminho Escolhido: O governo adota uma postura de não intervenção, mantendo as regras atuais de financiamento político e lobby favoráveis a quem tem mais recursos.",
@@ -45,14 +45,14 @@ alternativas:[
             afirmacao:[
                 "A prioridade deve ser o Investimento Social e a Prevenção, pois esta é a única estratégia capaz de gerar uma redução sustentável e justa da criminalidade.",
         ],
-            proxima:3,
+            proxima: 5,
         },
         {
             texto:"Concentrar todo o fundo em megaprojetos de alto impacto no PIB (grandes portos, rodovias de alta velocidade, centros tecnológicos) localizados primariamente nos centros econômicos já estabelecidos do país",
             afirmacao: [
                 "A prioridade deve ser a Ação Penal e a Repressão, pois o papel fundamental e imediato do Estado é garantir a Ordem e a Segurança Pública.",
             ],
-            proxima: 4,
+            proxima: 6,
         }
     ]
 },
@@ -64,14 +64,14 @@ alternativas:[
             afirmacao:[
                 "A única forma justa e eficaz de combater a desigualdade é priorizar o investimento maciço e exclusivo no sistema público e universal de educação.",
          ],
-            proxima:3,
+            proxima: 7,
         },
         {
             texto:"Criar um sistema de vouchers (vales) que permite aos pais usar fundos públicos para matricular seus filhos em escolas privadas. Este modelo desvia recursos do sistema público para fomentar a competição entre escolas, forçando as públicas a se tornarem mais eficientes ou a fechar.",
             afirmacao: [
                 "A introdução de vouchers e competição privada é o caminho mais rápido para impulsionar a eficiência e a qualidade da educação.",
           ],
-            proxima: 4,
+            proxima: 8,
         }
     ]
 },
@@ -83,14 +83,14 @@ alternativas:[
             afirmacao:[
            "A nação deve priorizar a Progressividade Tributária e a Renda para combater a desigualdade, aliviando a carga sobre os mais pobres.",
             ],
-            proxima:3,
+            proxima: 9,
         },
         {
             texto:"Manter o foco da arrecadação nos altos impostos sobre o consumo (ICMS, IPI, etc.) e a baixa tributação sobre a renda e o patrimônio. Assegurar que a reforma se limite à simplificação dos impostos regressivos existentes, sem alterar a estrutura de quem paga mais.",
             afirmacao: [
          "A nação deve manter o foco na arrecadação baseada no Consumo e na simplicidade, evitando a alta tributação sobre a riqueza e a renda.",
             ],
-            proxima: 4,
+            proxima: 10,
         },
     ]
 },
