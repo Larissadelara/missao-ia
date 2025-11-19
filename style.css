@@ -40,7 +40,7 @@ button{
     padding: 15px;
     transition: backgroud-color 0.3s;
 }
-button :hover {
+button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
@@ -51,8 +51,8 @@ button :hover {
     display: block;
 }
 .caixa-alternativas{
-display: flex;
-flex-direction: column;
-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
     
