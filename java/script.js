@@ -62,10 +62,10 @@ function respostaSelecionada(opcaoSelecionada){
 }
 function mostraResultado(){
     caixaPerguntas.textContent = 'Em 2050, ${nome}';
-    textoResultado.textContent = historiaFinal;
+    textoResultados.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
     caixaResultados.classList.add("mostrar");
-    botaoJogarNovamente.addEventListener("click", jogaNovamente);
+    botaoJogarNovamente.addEventListener("click",jogaNovamente)
 }
 function jogaNovamente(){
     atual = 0;
