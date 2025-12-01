@@ -1,21 +1,21 @@
-import {aleatorio, nome} from './aleatorio.js';
-import {perguntas} from  './perguntas.js';
+import { aleatorio, nome } from './aleatorio.js';
+import { perguntas } from './perguntas.js';
 
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultados = document.querySelector(".caixa-resultados");
-const textoResultados = document.querySelector(".texto-resultados");
-const botaoJogarNovamento = document.querySelector(".novamente-botao");
-const botaoInicial = document.querySelector(".iniciar-botao");
-const telaIniciar = document.querySelector(".tela-inicial");
+const textoResultado = document.querySelector(".texto-resultado");
+const botaoJogarNovamente = document.querySelector(".novamente-botao");
+const telaInicial = document.querySelector(".tela-inicial");
+const botaoIniciar = document.querySelector(".iniciar-botao");
 
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
 
 botaoIniciar.addEventListener('click',iniciaJogo);
-function iniciaJogo (){
+function iniciaJogo() {
     atual = 0;
     historiaFinal = "";
     telaInicial.style.display = 'none';
@@ -26,30 +26,30 @@ function iniciaJogo (){
 }
 
 function mostraPergunta (){
-    if (atual >= Perguntas.length){
-        mostraResultado();
+    if (atual >= perguntas.length){
+        mostraResultados();
         return;
     }
-    perguntaAtual =Perguntas[atual];
+    perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent = "";
+    caixaAlternativas,textContent = "";
     mostraAlternativas();
 }
 
 function mostraAlternativas(){
     for (const alternativa of perguntaAtual.alternativas){
         const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent =alternativa.texto;
+        botaoAlternativas.textContent = alternativa.texto;
         botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
         caixaAlternativas.appendChild(botaoAlternativas);
     }
-    function mostraAfirmacoes(){
+    function mostraAfirmacoes (){
         for(const afirmacoes of perguntaAtual.afirmacoes){
 
         }
     }
 }
-function respostaSelecionada(opcaoSelecionada){
+function respondeSelecionada(opcaoSelecionada){
     const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + "";
     if (opcaoSelecionada.proxima !== undefined){
